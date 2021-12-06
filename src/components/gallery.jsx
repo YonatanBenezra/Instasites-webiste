@@ -6,15 +6,15 @@ export const Gallery = props => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/portfolio/01-small.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/portfolio/02-small.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/portfolio/03-small.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/portfolio/04-small.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/portfolio/05-small.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/portfolio/07-small.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/portfolio/08-small.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/portfolio/09-small.jpg", title: "Lorem Ipsum9" }
+    { thumb: "img/portfolio/100_ Responsive-Websites-small.png", title: "100% responsive websites" },
+    { thumb: "img/portfolio/Always-Up-to-date-small.png", title: "Always up to date" },
+    { thumb: "img/portfolio/Available-247-small.png", title: "Available 24/7" },
+    { thumb: "img/portfolio/Elegant-Design-small.png", title: "Elegant design" },
+    { thumb: "img/portfolio/No-ads-small.png", title: "No Ads" },
+    { thumb: "img/portfolio/No-hassle-small.png", title: "No Hassle" },
+    { thumb: "img/portfolio/Real-people-small.png", title: "Real People" },
+    { thumb: "img/portfolio/Real-websites-small.png", title: "Real Websites" },
+    { thumb: "img/portfolio/SEO-Friendly-small.png", title: "Sea Friendly" }
   ];
 
   const images = data.map(obj => obj.thumb.replace("-small", "-large"));
@@ -30,11 +30,10 @@ export const Gallery = props => {
   };
 
   return (
-    <div id="portfolio" className="text-center">
+    <div id="features" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+          <h2>Features</h2>
         </div>
         <div className="row">
           <div className="portfolio-items">
